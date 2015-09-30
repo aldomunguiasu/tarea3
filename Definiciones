@@ -1,0 +1,40 @@
+
+
+Variable Estática:
+Se ubica estáticamente en programa, su vida es hasta que el programa deja de ejecutarse, puede tener valores fijos o cambiar 
+durante el transcurso del programa.
+
+	Ciclo de Vida de las Variables:
+•	Instancia (objeto): Se crea cuando el objeto que las contiene se crea, sin definición, se vuelve: null o 0, se destruyen 
+cuando ya no hay referencias del objeto.
+•	Estáticas (clase): Se crea cuando la clase que las contiene se usa por primera vez. Se inicializan por defecto si no hay 
+definición y existe para el resto del programa. 
+•	Locales (bloque): Se crean en la sentencia en la que están definidas; no se inicializan por defecto, ya que contienen 
+datos imprevisibles y se destruyen al salir del bloque. 
+
+Memoria Dinámica:  
+Se solicita en tiempo de ejecución, esto es, que la memoria necesaria de una variable, si no es suficiente solicita más al 
+sistema operativo y sigue ejecutándose.
+
+Clase:
+Plantilla para crear objetos de un tipo específico. Representa entidades y cada clase define un conjunto de variables y 
+métodos para poder ser usados dentro de estas.
+Objeto:
+Un objeto computa algo si tú le envías diferentes tipos de mensajes. Un objeto se intenta representar las propiedades 
+físicas del mundo exterior.
+
+Instanciación:
+La instanciación se refiere a la realización específica de una clase o prototipo determinados. 
+
+Herencia:
+La herencia es un mecanismo que permite crear clases nuevas o subclases a partir de clases previamente diseñadas y probadas; 
+la herencia implica que una subclase tiene todos los atributos y funcionalidad de una clase superior. 
+
+Sobrecarga:
+Poder poner a un identificador diferentes tipos de variables u operaciones, de tal manera que se pueda expresar en una misma 
+palabra diferente tipos de acciones.
+
+Shadowing (Ensombrecimiento):
+Se conoce como shadowing al hecho de que una variable local y una variable miembro, pertenecientes a la misma clase, 
+definidas en un método miembro se llamen igual. 
+
